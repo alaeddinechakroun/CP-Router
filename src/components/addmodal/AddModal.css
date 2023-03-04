@@ -1,0 +1,38 @@
+.wrapper{
+    display: grid;
+    width: 40%;
+    margin: auto;
+    height:500px;
+    background-color:rgba(240, 248, 255, 0.924);
+    padding: 20px;
+    border-radius: 10px 10px;
+    position:absolute;
+    right: 30%;
+    top:100px;
+    z-index: 5;
+
+}
+.wrapper input{
+   height: 30px; 
+   margin-bottom: 10px;
+}
+.add_btn{
+    background-color: #4CAF50;
+    border: none;
+    padding: 5px;
+    margin-top: 40px;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 50%;
+    margin: auto;
+}
+.Close_btn{
+    background-color: #f44336;
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+}
