@@ -1,0 +1,37 @@
+.Disc{
+   background-color: black;
+   color: bisque;
+   height: 120vh;
+   padding: 10px;
+}
+.button{
+    background-color: bisque;
+    color: black;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+.Text{
+    color: bisque;
+    text-decoration: none;
+    padding: 20px;
+   
+}
+.descriptionn{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+
+}

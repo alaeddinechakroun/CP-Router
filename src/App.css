@@ -1,11 +1,11 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: black;
 }
 
 .btn{
-  background-color:#008CBA;
-  color: white;
+  background-color:bisque;
+  color: black;
   padding: 10px;
   width: 150px;
   border: none;

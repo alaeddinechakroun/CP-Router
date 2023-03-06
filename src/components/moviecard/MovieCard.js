@@ -1,12 +1,13 @@
 import React from 'react'
 import './MovieCard.css'
 import StarRatingComponent from "react-star-rating-component";
+import { Link } from 'react-router-dom';
 
 const MovieCard = ({e}) => {
   return (
       <div className="Card-div">
         <div className="image_holder">
-            <img src={e.img} alt="" />
+        <Link to={`/Description/${e.id}`}><img src={e.img} alt="" /></Link>
         </div>
         <div className="description">
             <h1>{e.title}</h1>
@@ -27,6 +28,8 @@ const MovieCard = ({e}) => {
           emptyStarColor="grey" /* color of non-selected icons, default `#333` */
           editing="true" /* is component available for editing, default `true` */
         />
+        <br/>
+       
         </div>
 
 
